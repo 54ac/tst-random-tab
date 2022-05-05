@@ -6,4 +6,4 @@ This is a Firefox addon for [Tree Style Tab](https://addons.mozilla.org/en-US/fi
 
 ### Where can I download this?
 
-- [The Firefox Addons (AMO) listing.](https://addons.mozilla.org/en-US/firefox/addon/hls-stream-detector/)
+- [The Firefox Addons (AMO) listing.](https://addons.mozilla.org/en-US/firefox/addon/tst-select-random-tab/)

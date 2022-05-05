@@ -1,5 +1,3 @@
-import resolve from "@rollup/plugin-node-resolve";
-import commonjs from "@rollup/plugin-commonjs";
 import babel from "@rollup/plugin-babel";
 import copy from "rollup-plugin-copy-watch";
 import cleaner from "rollup-plugin-cleaner";
@@ -7,20 +5,19 @@ import cleaner from "rollup-plugin-cleaner";
 const production = !process.env.ROLLUP_WATCH;
 
 export default {
-	input: "src/index.js",
+	input: "src/background.js",
 	output: {
 		dir: "build",
-		format: "iife",
+		format: "esm",
 		sourcemap: !production
 	},
 	plugins: [
 		cleaner({
 			targets: ["build"]
 		}),
-		resolve(),
-		commonjs(),
 		babel({
 			exclude: "node_modules/**",
+			babelHelpers: "bundled",
 			presets: [["@babel/preset-env", { bugfixes: true }]]
 		}),
 		copy({
