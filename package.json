@@ -1,11 +1,11 @@
 {
 	"name": "TST Select Random Tab",
 	"author": {
-		"name": "rowrawer",
-		"email": "rowrawer@gmail.com",
-		"url": "https://github.com/rowrawer"
+		"name": "54ac",
+		"email": "me@54ac.bio",
+		"url": "https://github.com/54ac"
 	},
-	"repository": "github:rowrawer/tst-random-tab",
+	"repository": "github:54ac/tst-random-tab",
 	"version": "1.1.2",
 	"private": true,
 	"devDependencies": {
